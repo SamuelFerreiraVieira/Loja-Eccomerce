@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LangoCell Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">NickLan Cell</div>
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Produtos</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="tech-circulo">
+            <div class="circulo"></div>
+            <div class="circulo"></div>
+            <div class="circulo"></div>
+            <div class="circulo"></div>
+        </div>
+        <div class="lista">
+            <div class="item ativo">
+                <div class="produtos-img">
+                    <img src="apple-watch.png" alt="Apple Watch">
+                </div>
+                <div class="content">
+                    <p class="tag-produto">Novo Lançamento</p>
+                    <p class="nome-produto">Smart Watch</p>
+                    <p class="descrição">
+                        O smart watch mais avançado do mercado. Monitoramento completo de saúde, GPS integrado, tela AMOLED de alta resolução e bateria de longa duração.
+                    </p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="produtos-img">
+                    <img src="air-pods.png" alt="Air Pods Max">
+                </div>
+                <div class="content">
+                    <p class="tag-produto">Som premium</p>
+                    <p class="nome-produto">Air Pods</p>
+                    <p class="descrição">
+                        Experimente o som em sua forma mais pura. Cancelamento de ruído adaptativo, qualidade de áudio excepcional e design ergonômico para conforto.
+                    </p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="produtos-img">
+                    <img src="43306480_9022843.png" alt="iPhone">
+                </div>
+                <div class="content">
+                    <p class="tag-produto">Manutenção especializada</p>
+                    <p class="nome-produto">Manutenção</p>
+                    <p class="descrição">
+                        Manutenção especializada em smartphones. Diagnóstico preciso, reparos com peças originais e garantia de serviço.
+                    </p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="setas">
+            <button class="seta-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left" viewBox="0 0 16 16">
+                    <path d="M10 12.796V3.204L4.519 8zm-.659.753-5.48-4.796a1 1 0 0 1 0-1.506l5.48-4.796A1 1 0 0 1 11 3.204v9.592a1 1 0 0 1-1.659.753"/>
+                </svg>
+            </button>
+            <button class="seta-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                    <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
+                </svg>
+            </button>
+        </div>
+        <div class="indicadores">
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </main>
+    <script src="./scripts.js"></script>
+</body>
+</html>
